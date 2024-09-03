@@ -25,4 +25,4 @@ urlpatterns = [
     path('proveedores/', listar_proveedores, name='listar_proveedores'),
     path('proveedores/agregar/', agregar_proveedor, name='agregar_proveedor'),
     path('proveedores/editar/<int:pk>/', editar_proveedor, name='editar_proveedor'),
-    path('proveedores/eliminar/<int:pk>/', eliminar_proveedor, name='eliminar_proveedor'),
+    path('proveedores/eliminar/<int:pk>/', eliminar_proveedor, name='eliminar_proveedor'),]

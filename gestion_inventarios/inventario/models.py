@@ -19,7 +19,7 @@ class Proveedor(models.Model):
 
 class Etiqueta(models.Model):
     nombre = models.CharField(max_length=50)
-
+    
     def __str__(self):
         return str(self.nombre)
 
